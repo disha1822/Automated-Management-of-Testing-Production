@@ -37,7 +37,7 @@ I have designed **three** jobs in **Jenkins** to achieve this CI/CD Pipeline of 
  they will trigger **Job3** and this job will merge the branches.
  * As a result changes occur in the **master branch** which will in turn trigger **Job2** that deploys the **new well tested features**
  of master to the **Production System**.
- ![Job3_1]()
- ![Job3_2]()
- ![Job3_3]()
+ ![Job3_1](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/merge_job_1.jpeg?raw=true)
+ ![Job3_2](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/merge_job_2.jpeg?raw=true)
+ ![Job3_3](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/merge_job_3.jpeg?raw=true)
  
