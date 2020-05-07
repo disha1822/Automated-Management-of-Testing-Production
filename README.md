@@ -72,10 +72,8 @@ Initially our **Github master & dev1 branch** has 10 commits with the latest oco
 ![e](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/final_github_dev1.jpeg?raw=true)
 * Final Testing System
 ![f](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/final_testing_sys.jpeg?raw=true)
-* Before Merging Github master branch
-![g]()
 * Before Merging Production System
-![h]()
+![h](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/before_merge_prod_sys.jpeg?raw=true)
 
 * Now that our testing code is running perfectly in testing environment, so the **QAT** triggers the Job3.
 
