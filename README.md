@@ -45,13 +45,44 @@ I have designed **three** jobs in **Jenkins** to achieve this CI/CD Pipeline of 
  
 # Testing :
 Now that we have configured all the jobs in Jenkins, we can start our testing ---
-## Before Feature added
+## Before Feature Added
 Initially our **Github master & dev1 branch** has 10 commits with the latest ocommit **test 10**.
+
 * Initial github master branch
+
 ![a](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_github_master.jpeg?raw=true)
+
 * Initial github dev1 branch
+
 ![b](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_github_dev1.jpeg?raw=true)
+
 * Initial Production system
+
 ![c](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_production_sys.jpeg?raw=true)
+
 * Initial Testing system
-![c](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_testing_sys.jpeg?raw=true)
+
+![d](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_testing_sys.jpeg?raw=true)
+
+# After Feature Added
+* Now developer has added one feature in **dev1 branch** and commit it in local repository. As we have created a **post-commit hook** so as soon as developer commits code is **automatically pushed in dev1 branch in Github**.
+* So our job2 run and updates the Testing system.
+
+* Final Github dev1 branch
+![e]()
+* Final Testing System
+![f]()
+* Before Merging Github master branch
+![g]()
+* Before Merging Production System
+![h]()
+
+* Now that our testing code is running perfectly in testing environment, so the **QAT** triggers the Job3.
+
+* Triggerring Merging Job
+![i]()
+* After Job3 run it has merged the **dev1 branch to master branch** and since master branch has changed so Job2 is treiggred and updated the production system.
+* After Merging Github master branch
+![g]()
+* After Merging Production System
+![h]()
