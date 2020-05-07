@@ -48,19 +48,19 @@ Now that we have configured all the jobs in Jenkins, we can start our testing --
 ## Before Feature Added
 Initially our **Github master & dev1 branch** has 10 commits with the latest ocommit **test 10**.
 
-* Initial github master branch
+* **Initial github master branch**
 
 ![a](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_github_master.jpeg?raw=true)
 
-* Initial github dev1 branch
+* **Initial github dev1 branch**
 
 ![b](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_github_dev1.jpeg?raw=true)
 
-* Initial Production system
+* **Initial Production system**
 
 ![c](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_production_sys.jpeg?raw=true)
 
-* Initial Testing system
+* **Initial Testing system**
 
 ![d](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_testing_sys.jpeg?raw=true)
 
@@ -68,19 +68,38 @@ Initially our **Github master & dev1 branch** has 10 commits with the latest oco
 * Now developer has added one feature in **dev1 branch** and commit it in local repository. As we have created a **post-commit hook** so as soon as developer commits code is **automatically pushed in dev1 branch in Github**.
 * So our job2 run and updates the Testing system.
 
-* Final Github dev1 branch
+* **Final Github dev1 branch**
+
 ![e](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/final_github_dev1.jpeg?raw=true)
-* Final Testing System
+
+* **Final Testing System**
+
 ![f](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/final_testing_sys.jpeg?raw=true)
-* Before Merging Production System
+
+* **Before Merging Production System**
+
 ![h](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/before_merge_prod_sys.jpeg?raw=true)
 
 * Now that our testing code is running perfectly in testing environment, so the **QAT** triggers the Job3.
 
-* Triggerring Merging Job
+* **Triggerring Merging Job**
+
 ![i](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/trigger_merge_job.jpeg?raw=true)
+
 * After Job3 run it has merged the **dev1 branch to master branch** and since master branch has changed so Job2 is treiggred and updated the production system.
-* After Merging Github master branch
+
+* **After Merging Github master branch**
+
 ![g](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/after_merge_github_master.jpeg?raw=true)
-* After Merging Production System
+
+* **After Merging Production System**
 ![h](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/after_merge_prod_sys.jpeg?raw=true)
+
+# Future Enhancements:
+
+Due to the limited time of the task submission and for the sake of simplicity I have used some **Trigger Options** that can be further modified ---
+
+* Here I have used **Poll SCM** for triggerring the **Testing & Production Deployment Jobs** for which Jenkins have to keep track of Github every minute and this increases the Computation and overheads. So instead of that we can use **Github Webhook Trigger** where **Github will trigger the Jobs whenever any change occurs.**
+* Also the **Merging Job is build Manually** which breaks the **Automation**. Here we can use **Remote script trigger** i.e., the **QAT will trigger the Job with some remote script in their system**.
+
+# Lastly, I will like to thank Vimal Sir from the bottom of my heart. Just in 8 Days of training we have learnt so much only for him.
