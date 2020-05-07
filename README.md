@@ -17,7 +17,7 @@ In this project I have created a **Continuous Integration & Continuous Deploymen
   * Jenkins
   * Docker
 
-# Description :
+# Project Description :
 I have designed **three** jobs in **Jenkins** to achieve this CI/CD Pipeline of testing and production deployment ---
 ## Job1 (Deployment in Testing Environment) :
  * This job will go to the github repository specified in SCM Section and copy the code in the **dev1 branch** to one local directory of testing system and then deploy it to a **Docker container** mounting that directory.
@@ -64,7 +64,7 @@ Initially our **Github master & dev1 branch** has 10 commits with the latest oco
 
 ![d](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_testing_sys.jpeg?raw=true)
 
-# After Feature Added
+## After Feature Added
 * Now developer has added one feature in **dev1 branch** and commit it in local repository. As we have created a **post-commit hook** so as soon as developer commits code is **automatically pushed in dev1 branch in Github**.
 * So our job2 run and updates the Testing system.
 
