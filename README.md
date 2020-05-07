@@ -69,9 +69,9 @@ Initially our **Github master & dev1 branch** has 10 commits with the latest oco
 * So our job2 run and updates the Testing system.
 
 * Final Github dev1 branch
-![e]()
+![e](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/final_github_dev1.jpeg?raw=true)
 * Final Testing System
-![f]()
+![f](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/final_testing_sys.jpeg?raw=true)
 * Before Merging Github master branch
 ![g]()
 * Before Merging Production System
