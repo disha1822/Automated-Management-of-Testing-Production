@@ -38,6 +38,8 @@ I have designed **three** jobs in **Jenkins** to achieve this CI/CD Pipeline of 
  * As a result changes occur in the **master branch** which will in turn trigger **Job2** that deploys the **new well tested features**
  of master to the **Production System**.
  ![Job3_1](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/merge_job_1.jpeg?raw=true)
+ * In the **Source Code Management** we need to set our **Github Credentials** unless it will fail to merge branches.
  ![Job3_2](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/merge_job_2.jpeg?raw=true)
+ * **Post Build Action** will perform the merge but we need to specify any build before that. In my case I have just Executed a date commandin shell.
  ![Job3_3](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/merge_job_3.jpeg?raw=true)
  
