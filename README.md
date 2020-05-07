@@ -20,6 +20,14 @@ In this project I have created a **Continuous Integration & Continuous Deploymen
 # Description :
 I have designed **three** jobs in **Jenkins** to achieve this CI/CD Pipeline of testing and production deployment ---
 ## Job1 (Deployment in Testing Environment) :
- * This job will go to the github repository specified in SCM Section and copy the code in the **dev1** to one local directory of testinf system and then deploy it to a **Docker container** monting the directory.
- * We triggered the job by **Poll SCM** so it will check the dev1 branch every minute and if aby change occur it will run the job.
+ * This job will go to the github repository specified in SCM Section and copy the code in the **dev1 branch** to one local directory of testing system and then deploy it to a **Docker container** mounting that directory.
+ * We triggered the job by **Poll SCM** so it will check the dev1 branch every minute and if any change occur it will run the job.
  ![Job1_1](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/testing_job_1.jpeg?raw=true)
+ ![Job1_2](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/testing_job_2.jpeg?raw=true)
+ 
+ ## Job2 (Deployment in Production Environment) :
+ * This job will go to the github repository specified in SCM Section and copy the code in the **master branch** to one local directory of production system and then deploy it to a **Docker container** mounting that directory. Here we also need to expose the port 80of the container as clients are connected to it.
+ * We triggered the job by **Poll SCM** so it will check the master branch every minute and if any change occur it will run the job.
+ ![Job2_1](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/production_job_1.jpeg?raw=true)
+ ![Job2_2](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/production_job_2.jpeg?raw=true)
+ 
