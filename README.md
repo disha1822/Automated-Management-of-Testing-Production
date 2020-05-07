@@ -48,7 +48,10 @@ Now that we have configured all the jobs in Jenkins, we can start our testing --
 ## Before Feature added
 Initially our **Github master & dev1 branch** has 10 commits with the latest ocommit **test 10**.
 * Initial github master branch
-![a]()
+![a](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_github_master.jpeg?raw=true)
 * Initial github dev1 branch
+![b](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_github_dev1.jpeg?raw=true)
 * Initial Production system
+![c](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_production_sys.jpeg?raw=true)
 * Initial Testing system
+![c](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/initial_testing_sys.jpeg?raw=true)
