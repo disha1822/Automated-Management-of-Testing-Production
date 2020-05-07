@@ -22,4 +22,4 @@ I have designed **three** jobs in **Jenkins** to achieve this CI/CD Pipeline of 
 ## Job1 (Deployment in Testing Environment) :
  * This job will go to the github repository specified in SCM Section and copy the code in the **dev1** to one local directory of testinf system and then deploy it to a **Docker container** monting the directory.
  * We triggered the job by **Poll SCM** so it will check the dev1 branch every minute and if aby change occur it will run the job.
- ![Job1_1]()
+ ![Job1_1](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/testing_job_1.jpeg?raw=true)
