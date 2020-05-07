@@ -78,7 +78,7 @@ Initially our **Github master & dev1 branch** has 10 commits with the latest oco
 * Now that our testing code is running perfectly in testing environment, so the **QAT** triggers the Job3.
 
 * Triggerring Merging Job
-![i]()
+![i](https://github.com/disha1822/Automated-Management-of-Testing-Production/blob/master/trigger_merge_job.jpeg?raw=true)
 * After Job3 run it has merged the **dev1 branch to master branch** and since master branch has changed so Job2 is treiggred and updated the production system.
 * After Merging Github master branch
 ![g]()
